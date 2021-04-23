@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ESNext",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "noEmit": true,
+        "allowJs": true,
+        "checkJs": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "resolveJsonModule": true,
+        "lib": [
+            "dom",
+            "esnext",
+        ],
+        // Vue packages that provide ambient types that extend Vue need to be registered explicitly.
+        "types": [
+            "vue-meta",
+        ],
+    },
+}

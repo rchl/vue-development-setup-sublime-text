@@ -1,0 +1,11 @@
+{
+    // Vetur options.
+    "vetur.experimental.templateInterpolationService": true,
+    "vetur.format.defaultFormatter.html": "none",
+    "vetur.format.defaultFormatter.js": "none",
+    "vetur.useWorkspaceDependencies": true,
+    // Autofix on save for eslint.
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+}

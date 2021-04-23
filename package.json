@@ -1,0 +1,24 @@
+{
+  "name": "vue-development-setup-sublime-text",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "types": "types/index.d.ts",
+  "eslintIgnore": [
+    "!.eslintrc.js"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "typescript": "^4.2.3",
+    "vue": "^2.6.12",
+    "vue-meta": "^2.4.0"
+  }
+}
